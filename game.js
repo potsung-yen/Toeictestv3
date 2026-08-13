@@ -633,3 +633,31 @@ function clearUnknownWords() {
         updateUnknownWordsUI();
     }
 }
+
+// ==========================================
+// 📥 下載完整資料庫單字清單 (CSV)
+// ==========================================
+function exportAllWords() {
+    // 確保有資料可以匯出
+    if (!wordList || wordList.length === 0) { 
+        alert("❌ 目前資料庫中沒有任何單字！"); 
+        return; 
+    }
+    
+    // 加入 BOM (\uFEFF) 防止 Excel 開啟 CSV 時中文亂碼
+    // 同時匯出分類與欄位，方便您後續進行缺漏比對
+    let csv = "\uFEFF英文單字,中文意思,情境類別,GEPT分級,字根家族\n" + 
+        wordList.map(w => {
+            let cat = w.toeic_category || w.category || "無分類";
+            let gept = w.gept_level || "無";
+            let root = w.root_family || "無";
+            return `"${w.english}","${w.chinese}","${cat}","${gept}","${root}"`;
+        }).join("\n");
+        
+    // 建立 Blob 物件並產生下載連結
+    let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    let link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = `SpellingHero_完整單字庫比對檔.csv`;
+    link.click();
+}
