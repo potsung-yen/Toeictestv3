@@ -398,7 +398,99 @@ var SpellingHeroData = [
 // 📚 單字資料庫 (SpellingHeroData)
 // 第二批次：擴充單字區 (全新多維度架構)
 // ==========================================
-SpellingHeroData = SpellingHeroData.concat([
+SpellingHeroData = SpellingHeroData.concat(
+ [
+{
+"english": "specialist",
+"chinese": "專家 (名詞)",
+"sentence": "The company hired an IT specialist to upgrade their network security system before the annual audit.",
+"synonyms": "expert (專家), professional (專業人士), master (大師)",
+"antonyms": "amateur (業餘愛好者), novice (新手), beginner (初學者)",
+"confused": "special (特別的)",
+"roots": "special (特別的) + -ist (表「人」的名詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+specialist",
+"category": "人事與管理"
+},
+{
+"english": "expenses",
+"chinese": "費用、開銷 (名詞)",
+"sentence": "Employees must submit their travel expenses to the accounting department by the end of the month for reimbursement.",
+"synonyms": "costs (成本), expenditures (支出), outlays (花費)",
+"antonyms": "income (收入), revenue (收益), profits (利潤)",
+"confused": "expands (擴大), expends (花費)",
+"roots": "ex- (向外) + pend (懸掛、衡量、支付) + -s (複數名詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+expenses",
+"category": "財務與金融"
+},
+{
+"english": "investing",
+"chinese": "投資 (動名詞/現在分詞)",
+"sentence": "Investing in employee training will eventually lead to higher productivity and lower turnover rates.",
+"synonyms": "funding (資助), financing (融資), spending (花費)",
+"antonyms": "withdrawing (撤回), divesting (撤資), liquidating (清算)",
+"confused": "investigating (調查), inventing (發明)",
+"roots": "in- (進入) + vest (穿衣、賦予) + -ing (動名詞/現在分詞字尾)，引申為將資本投入某處",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+investing",
+"category": "財務與金融"
+},
+{
+"english": "renewable",
+"chinese": "可再生的、可更新的 (形容詞)",
+"sentence": "The government is offering tax incentives for corporations that transition to renewable energy sources.",
+"synonyms": "sustainable (可持續的), inexhaustible (用不完的), replenishable (可補充的)",
+"antonyms": "nonrenewable (不可再生的), exhaustible (可耗盡的), finite (有限的)",
+"confused": "relatable (能引起共鳴的), reliable (可靠的)",
+"roots": "re- (再一次) + new (新的) + -able (可...的形容詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+renewable",
+"category": "企劃與業務"
+},
+{
+"english": "corporation's",
+"chinese": "公司的 (名詞所有格)",
+"sentence": "The corporation's annual report showed a significant increase in overseas sales for the third quarter.",
+"synonyms": "company's (公司的), firm's (公司的), enterprise's (企業的)",
+"antonyms": "無",
+"confused": "cooperation's (合作的)",
+"roots": "corpor (身體、團體) + -ation (名詞字尾) + 's (所有格)，指具備法人資格的實體",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+corporation%27s",
+"category": "企劃與業務"
+},
+{
+"english": "partnerships",
+"chinese": "合夥關係、合作夥伴關係 (名詞)",
+"sentence": "We are looking to form strategic partnerships with local distributors to rapidly expand our market share.",
+"synonyms": "alliances (聯盟), collaborations (合作), coalitions (聯合)",
+"antonyms": "rivalries (競爭關係), enmities (敵意), oppositions (對立)",
+"confused": "partitions (隔板、分割)",
+"roots": "part (部分) + -ner (人) + -ship (表「狀態或關係」的字尾) + -s (複數)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+partnerships",
+"category": "企劃與業務"
+},
+{
+"english": "upfront",
+"chinese": "預先的、提前的 (形容詞/副詞)",
+"sentence": "The vendor requires an upfront payment of fifty percent before beginning the manufacturing process.",
+"synonyms": "in advance (預先), prepaid (預付的), beforehand (提前)",
+"antonyms": "in arrears (拖欠), delayed (延遲的), retrospective (回溯的)",
+"confused": "affront (冒犯), confront (面對)",
+"roots": "up (向上、向前) + front (前面)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+upfront",
+"category": "財務與金融"
+},
+{
+"english": "cybersecurity",
+"chinese": "網路安全、資訊安全 (名詞)",
+"sentence": "Due to the recent rise in data breaches, the firm is heavily investing in upgrading its cybersecurity protocols.",
+"synonyms": "digital security (數位安全), IT security (資訊安全), computer security (電腦安全)",
+"antonyms": "無",
+"confused": "cyberbullying (網路霸凌)",
+"roots": "cyber- (網路的、電腦的) + se- (分開) + cur (關心、照顧) + -ity (名詞字尾)，security 指免於擔憂的安全狀態",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cybersecurity",
+"category": "辦公室與行政"
+}
+]
+ ,
+  [
   {
     "english": "directors",
     "chinese": "董事；主管；導演 (n.)",
