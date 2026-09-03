@@ -399,7 +399,163 @@ var SpellingHeroData = [
 // 第二批次：擴充單字區 (全新多維度架構)
 // ==========================================
 SpellingHeroData = SpellingHeroData.concat(
- [
+[
+{
+"english": "specialist",
+"chinese": "專家 / 專員 (n.)",
+"sentence": "The IT specialist resolved the network issue within an hour, minimizing company downtime.",
+"synonyms": "expert (專家), professional (專業人士), master (大師)",
+"antonyms": "amateur (業餘者), novice (新手), beginner (初學者)",
+"confused": "specialty (專長), special (特別的)",
+"roots": "special (特別的) + -ist (表示...的人)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+specialist",
+"category": "人事與管理"
+},
+{
+"english": "expenses",
+"chinese": "費用 / 開支 (n.)",
+"sentence": "Employees must submit all travel expenses for reimbursement by the end of the month.",
+"synonyms": "costs (成本), expenditures (支出), charges (費用)",
+"antonyms": "income (收入), revenue (收益), profit (利潤)",
+"confused": "expands (擴張), dispenses (分配)",
+"roots": "ex- (向外) + pend (花費/懸掛) + -s (複數字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+expenses",
+"category": "財務與金融"
+},
+{
+"english": "investing",
+"chinese": "投資 (v./n.)",
+"sentence": "Investing in employee training will yield significant financial returns in the long run.",
+"synonyms": "funding (資助), financing (融資), backing (支持出資)",
+"antonyms": "divesting (撤資), withdrawing (撤回資金), saving (儲蓄)",
+"confused": "investigating (調查), inventing (發明)",
+"roots": "in- (進入) + vest (穿衣/賦予) + -ing (現在分詞/動名詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+investing",
+"category": "財務與金融"
+},
+{
+"english": "renewable",
+"chinese": "可再生的 / 可更新的 (adj.)",
+"sentence": "The company aims to transition entirely to renewable energy sources by 2030.",
+"synonyms": "sustainable (永續的), reusable (可重複使用的), inexhaustible (用不完的)",
+"antonyms": "nonrenewable (不可再生的), exhaustible (可耗盡的), finite (有限的)",
+"confused": "reusable (可重複使用的), rewritable (可重寫的)",
+"roots": "re- (再) + new (新) + -able (可...的)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+renewable",
+"category": "生產與製造"
+},
+{
+"english": "corporation's",
+"chinese": "公司的 / 企業的 (n. 所有格)",
+"sentence": "The corporation's quarterly profits exceeded financial analysts' expectations.",
+"synonyms": "company's (公司的), enterprise's (企業的), business's (商業的)",
+"antonyms": "無",
+"confused": "cooperation's (合作的), incorporation's (合併的)",
+"roots": "corpor (身體/團體) + -ation (名詞字尾) + 's (所有格)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+corporation's",
+"category": "企劃與業務"
+},
+{
+"english": "partnerships",
+"chinese": "合作夥伴關係 (n.)",
+"sentence": "We are looking to form strategic partnerships with local distributors to expand our market.",
+"synonyms": "alliances (聯盟), collaborations (合作), associations (協會/聯合)",
+"antonyms": "rivalries (競爭), enmities (敵意), antagonisms (對立)",
+"confused": "partisanships (黨派偏見), penmanships (書法)",
+"roots": "part (部分) + -ner (人) + -ship (狀態/關係) + -s (複數字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+partnerships",
+"category": "企劃與業務"
+},
+{
+"english": "upfront",
+"chinese": "預先的 / 坦率的 (adj./adv.)",
+"sentence": "Clients are required to pay an upfront fee to secure the venue for the conference.",
+"synonyms": "advance (預先的), prepaid (預付的), proactive (主動的)",
+"antonyms": "delayed (延遲的), deferred (延期的), subsequent (隨後的)",
+"confused": "affront (冒犯), confront (面對)",
+"roots": "up (向上/在前) + front (前面)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+upfront",
+"category": "財務與金融"
+},
+{
+"english": "cybersecurity",
+"chinese": "網路安全 / 資訊安全 (n.)",
+"sentence": "The firm has increased its budget for cybersecurity to protect client data from hackers.",
+"synonyms": "network security (網路安全), information security (資訊安全), digital security (數位安全)",
+"antonyms": "無",
+"confused": "cybernetics (模控學), cyberbullying (網路霸凌)",
+"roots": "cyber- (網路的) + security (安全)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cybersecurity",
+"category": "辦公室與行政"
+},
+{
+"english": "notices",
+"chinese": "通知 / 公告 (n.) / 注意到 (v.)",
+"sentence": "Please check the employee bulletin board for new notices regarding office renovations.",
+"synonyms": "announcements (公告), notifications (通知), warnings (警告)",
+"antonyms": "ignores (忽視), overlooks (忽略), neglects (疏忽)",
+"confused": "novices (新手), notes (筆記)",
+"roots": "not (知道/標記) + -ice (名詞字尾) + -s (複數/第三人稱單數字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+notices",
+"category": "辦公室與行政"
+},
+{
+"english": "recognized",
+"chinese": "認可的 / 被認出的 (adj./v.)",
+"sentence": "The CEO was highly recognized for his outstanding leadership during the global financial crisis.",
+"synonyms": "acknowledged (被承認的), identified (被識別出的), distinguished (著名的)",
+"antonyms": "unacknowledged (未被承認的), ignored (被忽視的), denied (被否認的)",
+"confused": "reorganized (重組的), realized (意識到的)",
+"roots": "re- (再) + cogn (知道) + -ize (動詞字尾) + -d (過去式/過去分詞)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+recognized",
+"category": "人事與管理"
+},
+{
+"english": "various",
+"chinese": "各式各樣的 / 不同的 (adj.)",
+"sentence": "The marketing seminar will cover various topics related to international trade and consumer behavior.",
+"synonyms": "diverse (多元的), different (不同的), multiple (多個的)",
+"antonyms": "identical (完全相同的), uniform (統一的), single (單一的)",
+"confused": "variable (易變的/變數), variance (變異/分歧)",
+"roots": "vari (變化) + -ous (形容詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+various",
+"category": "企劃與業務"
+},
+{
+"english": "shipping",
+"chinese": "運輸 / 運費 (n.)",
+"sentence": "Customers will receive free shipping on all domestic orders over fifty dollars.",
+"synonyms": "delivery (遞送), transport (運輸), freight (貨運)",
+"antonyms": "receiving (接收), unboxing (開箱), holding (保留)",
+"confused": "shopping (購物), slipping (滑動)",
+"roots": "ship (船/運送) + -ping (名詞/現在分詞字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+shipping",
+"category": "採購與物流"
+},
+{
+"english": "meets",
+"chinese": "符合 / 遇見 (v.)",
+"sentence": "We must ensure that the new product prototype meets all international safety standards before launching.",
+"synonyms": "fulfills (履行/符合), satisfies (滿足), encounters (遇到)",
+"antonyms": "fails (失敗/未能), misses (錯過), violates (違反)",
+"confused": "meats (肉類), melts (融化)",
+"roots": "源自古英語 metan (相遇/發現) + -s (第三人稱單數字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+meets",
+"category": "企劃與業務"
+},
+{
+"english": "regulations",
+"chinese": "規定 / 法規 (n.)",
+"sentence": "All employees are required to comply with the new safety regulations implemented in the factory.",
+"synonyms": "rules (規則), laws (法律), policies (政策), guidelines (準則)",
+"antonyms": "deregulations (解除管制), violations (違規), anomalies (異常)",
+"confused": "regularities (規律性), registrations (註冊)",
+"roots": "reg (統治/規則) + -ula (小) + -tion (名詞字尾) + -s (複數字尾)",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+regulations",
+"category": "辦公室與行政"
+}
+]
+  , [
 {
 "english": "specialist",
 "chinese": "專家 (名詞)",
