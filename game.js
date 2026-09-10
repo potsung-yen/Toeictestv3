@@ -532,7 +532,7 @@ function exportMistakes() {
     link.click();
 }
 
-// ==========================================
+/// ==========================================
 // 📖 字典查詢與「未收錄單字」自動捕捉系統
 // ==========================================
 function searchWord() {
@@ -543,9 +543,11 @@ function searchWord() {
     const resultArea = document.getElementById("searchResultArea");
     if (!query) { resultArea.style.display = "none"; return; }
     
+    // 支援中英文模糊查詢
     const matches = wordList.filter(w => w.english.toLowerCase().includes(query) || (w.chinese && w.chinese.includes(query)));
     
     if (matches.length === 0) {
+        // 保留原本完美的：自動加入未收錄清單功能
         if (!playerData.unknownWords.includes(query)) {
             playerData.unknownWords.push(query);
             saveUserData();
@@ -553,22 +555,63 @@ function searchWord() {
         }
         resultArea.innerHTML = `<p style="color: #d63031; font-weight: bold;">找不到與「${query}」相關的單字 😢<br><span style="font-size:14px; color:#636e72;">已自動將此單字加入待擴充清單！</span></p>`;
     } else {
+        // 更新：顯示發音按鈕、字典連結以及詳細解析
         resultArea.innerHTML = matches.map(w => {
             let cat = w.toeic_category || w.category || "無分類";
             let geptBadge = w.gept_level ? `<span class="badge-gept" style="margin-left: 10px;">${w.gept_level}</span>` : "";
+            let rootParse = w.roots_parsing || w.roots || "暫無資料";
+            
+            // 劍橋字典連結
+            const dictLink = `https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${w.english}`;
+
             return `
-            <div style="background:#f1f2f6; padding:12px; margin-bottom:10px; border-radius:8px; border-left: 5px solid #0984e3;">
-                <h4 style="margin:0 0 5px 0; color:#2c3e50; font-size:18px;">
-                    ${w.english} <span style="font-size:14px; color:#636e72; font-weight:normal;">${w.chinese}</span> ${geptBadge}
-                </h4>
-                <p style="margin:0; font-size:14px; color:#555; font-style:italic;">${w.sentence || "暫無例句"}</p>
-                <p style="margin:5px 0 0 0; font-size:12px; color:#0984e3;">📌 情境：${cat}</p>
+            <div style="background: #fdfbfb; border: 1px solid #dfe6e9; padding: 15px; border-radius: 8px; margin-bottom: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 5px solid #0984e3;">
+                <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #dfe6e9; padding-bottom: 8px; margin-bottom: 10px;">
+                    <h3 style="margin: 0; color: #0984e3; font-size: 20px; font-weight: bold;">
+                        ${w.english} ${geptBadge}
+                    </h3>
+                    <div style="display: flex; gap: 8px;">
+                        <button type="button" onclick="speakSpecificWord('${w.english}')" style="background-color: #00b894; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 13px;">🔊 發音</button>
+                        <a href="${dictLink}" target="_blank" style="background-color: #2d3436; color: white; text-decoration: none; padding: 5px 10px; border-radius: 5px; font-size: 13px; display: inline-block;">📚 字典</a>
+                    </div>
+                </div>
+                
+                <div style="font-size: 15px; margin-bottom: 8px;">
+                    <span style="font-weight: bold; color: #2d3436;">${w.chinese}</span>
+                </div>
+                
+                <div style="background: #ecf0f1; padding: 10px; border-radius: 5px; margin-bottom: 10px; color: #555; font-style: italic; font-size: 14px;">
+                    <strong>💬 例句：</strong><br>
+                    ${w.sentence || '暫無例句'}
+                </div>
+                
+                <div style="color: #2c3e50; line-height: 1.6; font-size: 14px;">
+                    <p style="margin: 2px 0;"><b>🏢 情境：</b> ${cat}</p>
+                    <p style="margin: 2px 0;"><b>🧬 字根解析：</b> <span style="color:#d35400;">${rootParse}</span></p>
+                    <p style="margin: 2px 0;"><b>🔄 同義字：</b> ${w.synonyms || "無"}</p>
+                    <p style="margin: 2px 0;"><b>↔️ 反義字：</b> ${w.antonyms || "無"}</p>
+                    <p style="margin: 2px 0;"><b>⚠️ 易混淆：</b> <span style="color:#c0392b;">${w.confused || "無"}</span></p>
+                </div>
             </div>
             `;
         }).join("");
     }
     resultArea.style.display = "block";
 }
+
+// 獨立的發音函式，供查詢結果專用 (加在 searchWord 函式的下方)
+function speakSpecificWord(text) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel(); // 避免連續點擊造成語音卡住排隊
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US'; 
+        utterance.rate = 0.9;
+        window.speechSynthesis.speak(utterance);
+    } else {
+        alert("您的瀏覽器不支援語音功能。");
+    }
+}
+
 
 function updateUnknownWordsUI() {
     const area = document.getElementById("unknownWordsArea");
