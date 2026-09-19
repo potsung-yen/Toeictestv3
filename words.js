@@ -399,7 +399,447 @@ var SpellingHeroData = [
 // 第二批次：擴充單字區 (全新多維度架構)
 // ==========================================
 SpellingHeroData = SpellingHeroData.concat(
+
+
+
+
+[ { "english": "salvage", "chinese": "搶救、打撈 (動詞/名詞)", "sentence": "The crew managed to salvage the valuable cargo from the sinking ship.", "synonyms": "rescue (救援), recover (尋回)", "antonyms": "abandon (放棄) (若無則填 無)", "confused": "savage (野蠻的)", "roots_parsing": "salv (安全/拯救) + -age (名詞/動詞字尾) -> 使其安全 -> 搶救。", "root_family": "sal/salv- 家族 (安全/健康/拯救)", "toeic_category": "採購與物流", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+salvage" }, { "english": "skeleton", "chinese": "骨骼、骨架 (名詞)", "sentence": "The construction workers erected the steel skeleton of the new building.", "synonyms": "framework (框架), structure (結構)", "antonyms": "flesh (肉)", "confused": "skull (頭骨)", "roots_parsing": "來自希臘文 skeletos (乾枯的身體) -> 骨架。", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+skeleton" }, { "english": "skyscraper", "chinese": "摩天大樓 (名詞)", "sentence": "The new skyscraper in the financial district offers a stunning view of the city.", "synonyms": "high-rise (高樓), tower (塔樓)", "antonyms": "無", "confused": "scraper (刮刀)", "roots_parsing": "sky (天空) + scrape (刮) + -er (事物) -> 刮到天空的建築物 -> 摩天大樓。", "root_family": "無", "toeic_category": "地產與建築", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+skyscraper" }, { "english": "subcontractor", "chinese": "分包商、轉包商 (名詞)", "sentence": "The main construction company hired a subcontractor to handle the electrical wiring.", "synonyms": "outsourcer (外包商), supplier (供應商)", "antonyms": "main contractor (主承包商)", "confused": "contractor (承包商)", "roots_parsing": "sub- (在...之下) + con- (共同) + tract (拉) + -or (人) -> 在主包商下共同負責專案的人 -> 分包商。", "root_family": "tract- 家族 (拉/拖)", "toeic_category": "地產與建築", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+subcontractor" }, { "english": "tenure", "chinese": "任期、終身職 (名詞)", "sentence": "During his tenure as CEO, the company's profits doubled.", "synonyms": "term (任期), incumbency (在職)", "antonyms": "無", "confused": "tenant (租客)", "roots_parsing": "ten (握住/保持) + -ure (名詞字尾) -> 保有職位的狀態 -> 任期。", "root_family": "ten/tain- 家族 (握住/保持)", "toeic_category": "人事與管理", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+tenure" }, { "english": "thoroughfare", "chinese": "大道、通路 (名詞)", "sentence": "The new commercial complex is located on a busy thoroughfare.", "synonyms": "avenue (大道), boulevard (林蔭大道)", "antonyms": "dead end (死胡同)", "confused": "through (穿過)", "roots_parsing": "thorough (完全的/穿越的) + fare (行走/旅程) -> 可以完全穿越的道路 -> 大道。", "root_family": "fare- 家族 (行走/旅程)", "toeic_category": "出差與交通", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thoroughfare" }, { "english": "toast", "chinese": "吐司、敬酒 (名詞/動詞)", "sentence": "The manager proposed a toast to celebrate the successful launch of the new product.", "synonyms": "cheer (歡呼), drink to (為...乾杯)", "antonyms": "無", "confused": "roast (烤肉)", "roots_parsing": "來自拉丁文 torrere (烤乾)，敬酒的語源來自古時將烤麵包放入酒中調味的習俗。", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+toast" }, { "english": "turnout", "chinese": "出席人數、產量 (名詞)", "sentence": "We had a massive turnout for the annual general meeting this year.", "synonyms": "attendance (出席人數), audience (觀眾)", "antonyms": "absence (缺席)", "confused": "turn out (結果是)", "roots_parsing": "turn (轉動) + out (出) -> 轉出來的人潮 -> 出席人數。", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+turnout" }, { "english": "tycoon", "chinese": "企業界大亨、巨頭 (名詞)", "sentence": "The real estate tycoon announced plans to build another shopping mall in the suburbs.", "synonyms": "magnate (巨頭), mogul (大亨)", "antonyms": "nobody (無名小卒)", "confused": "typhoon (颱風)", "roots_parsing": "來自日語 taikun (大君)，原指將軍，後被用來指商界巨頭。", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+tycoon" }, { "english": "upkeep", "chinese": "維修、保養費 (名詞)", "sentence": "The upkeep of this historic building requires a significant amount of money each year.", "synonyms": "maintenance (維護), preservation (保存)", "antonyms": "neglect (忽視)", "confused": "keep up (保持)", "roots_parsing": "up (向上/維持) + keep (保持) -> 保持在好的狀態 -> 維護。", "root_family": "無", "toeic_category": "地產與建築", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+upkeep" }, { "english": "workout", "chinese": "運動、訓練 (名詞)", "sentence": "He goes to the gym for a vigorous workout every morning before work.", "synonyms": "exercise (運動), training (訓練)", "antonyms": "rest (休息)", "confused": "work out (解決/鍛鍊)", "roots_parsing": "work (工作/出力) + out (出) -> 出力流汗 -> 運動鍛鍊。", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+workout" }, { "english": "wrinkle", "chinese": "皺紋、摺痕 (名詞/動詞)", "sentence": "Please iron the shirt to remove any wrinkles before the interview.", "synonyms": "crease (摺痕), fold (褶皺)", "antonyms": "smoothness (平滑)", "confused": "winkle (挑出)", "roots_parsing": "來自古英語 gewrinclod (捲曲的)，指表面不平整。", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+wrinkle" } ]
+, 
+[ { "english": "obituary", "chinese": "訃聞 (n.)", "sentence": "The local newspaper published an obituary for the former mayor.", "synonyms": "necrology (訃聞), death notice (死訊)", "antonyms": "無", "confused": "arbitrary (任意的)", "roots_parsing": "ob- (向) + it- (走) + -uary (與...有關的) -> 走向死亡的紀錄 -> 訃聞。", "root_family": "it- 家族 (走)", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+obituary" }, { "english": "overhead", "chinese": "營運費用 / 經常性開支 (n.)", "sentence": "We need to reduce our overhead to increase profit margins.", "synonyms": "operating cost (營運成本), expense (開支)", "antonyms": "profit (利潤)", "confused": "overhear (無意中聽到)", "roots_parsing": "over- (超過/在上方) + head (頭) -> 頭頂上的 / 經常性開銷。", "root_family": "無", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+overhead" }, { "english": "overrun", "chinese": "超出(限度/預算) / 氾濫 (v.)", "sentence": "The project cost had a massive overrun due to unexpected delays.", "synonyms": "exceed (超過), surpass (超越)", "antonyms": "underrun (低於預算)", "confused": "overcome (克服)", "roots_parsing": "over- (超過) + run (跑) -> 跑得超過界線 -> 超出。", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+overrun" }, { "english": "ownership", "chinese": "所有權 / 物主身分 (n.)", "sentence": "The ownership of the property was transferred to his son.", "synonyms": "possession (擁有), proprietorship (所有權)", "antonyms": "無", "confused": "partnership (合夥關係)", "roots_parsing": "own (擁有) + -er (人) + -ship (身分/狀態) -> 所有權。", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+ownership" }, { "english": "penalty", "chinese": "處罰 / 罰款 (n.)", "sentence": "There is a heavy penalty for early withdrawal of the funds.", "synonyms": "punishment (處罰), fine (罰款)", "antonyms": "reward (獎勵)", "confused": "penal (刑罰的)", "roots_parsing": "pen- (懲罰) + -al (形容詞字尾) + -ty (名詞字尾) -> 處罰。", "root_family": "pen- 家族 (懲罰/痛苦)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+penalty" }, { "english": "personality", "chinese": "個性 / 人格特質 (n.)", "sentence": "She has a very outgoing personality and makes friends easily.", "synonyms": "character (性格), disposition (性情)", "antonyms": "無", "confused": "personnel (全體員工)", "roots_parsing": "person (人) + -al (形容詞字尾) + -ity (名詞字尾) -> 人格。", "root_family": "無", "toeic_category": "人事與管理", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+personality" }, { "english": "pickpocket", "chinese": "扒手 (n.)", "sentence": "Beware of pickpockets when you are in crowded tourist areas.", "synonyms": "thief (小偷), stealer (偷竊者)", "antonyms": "無", "confused": "shoplifter (順手牽羊者)", "roots_parsing": "pick (挑/扒) + pocket (口袋) -> 扒口袋的人 -> 扒手。", "root_family": "無", "toeic_category": "出差與交通", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+pickpocket" }, { "english": "poll", "chinese": "民意調查 / 投票 (n.)", "sentence": "The latest poll shows that the candidate is gaining popularity.", "synonyms": "survey (調查), voting (投票)", "antonyms": "無", "confused": "pole (柱子/極點)", "roots_parsing": "無", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+poll" }, { "english": "premium", "chinese": "保險費 / 附加費 (n.)", "sentence": "Customers are willing to pay a premium for organic produce.", "synonyms": "surcharge (附加費), high-quality (高品質的)", "antonyms": "discount (折扣)", "confused": "premier (首要的/總理)", "roots_parsing": "pre- (之前) + em- (拿取) + -ium (名詞字尾) -> 事先拿取的費用 -> 額外費用/保費。", "root_family": "em/empt- 家族 (拿取/購買)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+premium" }, { "english": "procedure", "chinese": "程序 / 步驟 (n.)", "sentence": "Please follow the standard operating procedure for handling customer complaints.", "synonyms": "process (過程), method (方法)", "antonyms": "無", "confused": "proceed (前進)", "roots_parsing": "pro- (向前) + ced- (走) + -ure (名詞字尾) -> 向前走的過程 -> 程序。", "root_family": "ced/ceed/cess- 家族 (走/退讓)", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+procedure" }, { "english": "productivity", "chinese": "生產力 (n.)", "sentence": "The new software has significantly increased our team's productivity.", "synonyms": "efficiency (效率), output (產量)", "antonyms": "unproductiveness (無生產力)", "confused": "production (生產)", "roots_parsing": "pro- (向前) + duct- (引導) + -iv(e) + -ity (名詞字尾) -> 引導出成果的能力 -> 生產力。", "root_family": "duc/duct- 家族 (引導)", "toeic_category": "生產與製造", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+productivity" }, { "english": "qualification", "chinese": "資格 / 條件 (n.)", "sentence": "She has the right qualifications for the marketing manager position.", "synonyms": "credential (證書), requirement (必要條件)", "antonyms": "disqualification (取消資格)", "confused": "quality (品質)", "roots_parsing": "qual- (特質) + -fic (做/製造) + -ation (名詞字尾) -> 具備特質的狀態 -> 資格。", "root_family": "fac/fec/fic- 家族 (做/製造)", "toeic_category": "人事與管理", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+qualification" }, { "english": "query", "chinese": "詢問 / 疑問 (n.)", "sentence": "If you have any queries about the contract, please contact our legal team.", "synonyms": "question (問題), inquiry (查詢)", "antonyms": "answer (回答)", "confused": "quest (尋求/探索)", "roots_parsing": "quer- (詢問/尋找) + -y (名詞/動詞字尾) -> 詢問。", "root_family": "quer/quir/quis- 家族 (詢問/尋找)", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+query" }, { "english": "questionnaire", "chinese": "問卷 (n.)", "sentence": "Please fill out this short questionnaire to help us improve our services.", "synonyms": "survey (調查), opinion poll (民意調查)", "antonyms": "無", "confused": "question (問題)", "roots_parsing": "question (問題) + -aire (名詞字尾，表示與...有關的事物) -> 問卷。", "root_family": "quer/quir/quis- 家族 (詢問/尋找)", "toeic_category": "企劃與業務", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+questionnaire" }, { "english": "quorum", "chinese": "法定人數 (n.)", "sentence": "We cannot vote on the proposal today because we do not have a quorum.", "synonyms": "majority (多數), legal minimum (法定最低人數)", "antonyms": "無", "confused": "quota (配額)", "roots_parsing": "quor- (誰) + -um (名詞字尾) -> 指特定數量的人 -> 法定人數。", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+quorum" }, { "english": "rain check", "chinese": "延期 / 改天 (n.)", "sentence": "I am too busy tonight, but can I take a rain check on that dinner?", "synonyms": "postponement (延期), delay (延遲)", "antonyms": "無", "confused": "blank check (空白支票)", "roots_parsing": "rain (雨) + check (票根) -> 棒球比賽因雨延期的換票憑證 -> 延期。", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+rain+check" }, { "english": "rally", "chinese": "集會 / 大會 / 復甦 (n.)", "sentence": "Thousands of people attended the political rally in the city square.", "synonyms": "gathering (聚會), assembly (集會)", "antonyms": "dispersal (解散)", "confused": "alley (小巷)", "roots_parsing": "re- (再) + allier (結合) -> 再次集合 -> 集會。", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+rally" }, { "english": "receptionist", "chinese": "接待員 (n.)", "sentence": "The receptionist welcomed the guests and handed them their room keys.", "synonyms": "front desk clerk (櫃台人員), greeter (接待者)", "antonyms": "無", "confused": "recipient (接受者)", "roots_parsing": "re- (向後/再) + cept- (拿取) + -ion (名詞字尾) + -ist (人) -> 負責接應的人 -> 接待員。", "root_family": "cap/capt/cept- 家族 (拿取/抓住)", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+receptionist" }, { "english": "recommendation", "chinese": "推薦 / 建議 (n.)", "sentence": "I bought this book based on my teacher's recommendation.", "synonyms": "suggestion (建議), advice (勸告)", "antonyms": "disapproval (反對)", "confused": "commendation (讚賞)", "roots_parsing": "re- (再/加強) + commend (委託/推薦) + -ation (名詞字尾) -> 推薦。", "root_family": "mand/mend- 家族 (命令/交託)", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+recommendation" }, { "english": "refund", "chinese": "退款 (n.)", "sentence": "If you are not satisfied with the product, you can return it for a full refund.", "synonyms": "reimbursement (核銷/退款), repayment (還款)", "antonyms": "charge (收費)", "confused": "fund (資金)", "roots_parsing": "re- (回) + fund- (傾倒) -> 把錢倒回去 -> 退款。", "root_family": "fund/found- 家族 (傾倒/底部)", "toeic_category": "財務與金融", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+refund" }, { "english": "refreshments", "chinese": "茶點 / 飲料和小吃 (n.)", "sentence": "Light refreshments will be served in the lobby after the meeting.", "synonyms": "snacks (點心), beverages (飲料)", "antonyms": "無", "confused": "refreshment (精神恢復/提神)", "roots_parsing": "re- (再) + fresh (新鮮) + -ment (名詞字尾) + -s (複數) -> 使精神再次清新的東西 -> 茶點。", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+refreshments" }, { "english": "renewal", "chinese": "更新 / 續約 (n.)", "sentence": "The lease renewal must be signed by the end of this month.", "synonyms": "extension (展期/延長), resumption (恢復)", "antonyms": "cancellation (取消)", "confused": "review (複習/審查)", "roots_parsing": "re- (再) + new (新) + -al (名詞字尾) -> 再次變新 -> 更新。", "root_family": "nov/new- 家族 (新)", "toeic_category": "辦公室與行政", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+renewal" }, { "english": "rider", "chinese": "騎士 / 附帶條款 (n.)", "sentence": "We added a rider to the insurance policy to cover accidental damage.", "synonyms": "addendum (附加物), appendix (附錄)", "antonyms": "無", "confused": "ride (騎乘)", "roots_parsing": "ride (騎/搭乘) + -er (人/物) -> 騎乘者，引申為依附在主合約上的附屬條款。", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+rider" }, { "english": "royalty", "chinese": "版稅 / 皇室 (n.)", "sentence": "The author receives a 10% royalty on every copy of the book sold.", "synonyms": "percentage (抽成), payment (付款)", "antonyms": "無", "confused": "loyalty (忠誠)", "roots_parsing": "royal (皇家的) + -ty (名詞字尾) -> 早期歸給皇室的特許權費用，後引申為版稅。", "root_family": "reg/rect- 家族 (統治/直的)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+royalty" } ]
+D
+,[ { "english": "landfill", "chinese": "垃圾掩埋場 (n.)", "sentence": "The local government is looking for a new site for the city's landfill.", "synonyms": "dump (垃圾場), junkyard (廢品場)", "antonyms": "無", "confused": "landform (地形)", "roots_parsing": "land (土地) + fill (填滿) -> 填滿土地的地方 -> 垃圾掩埋場", "root_family": "無", "toeic_category": "生產與製造", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+landfill" }, { "english": "layoff", "chinese": "解僱；裁員 (n.)", "sentence": "The company announced a mass layoff due to the recent economic downturn.", "synonyms": "dismissal (解僱), discharge (解僱)", "antonyms": "recruitment (招募), employment (僱用)", "confused": "layout (佈局)", "roots_parsing": "lay (放下) + off (離開) -> 讓人離開工作崗位 -> 裁員", "root_family": "無", "toeic_category": "人事與管理", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+layoff" }, { "english": "leakage", "chinese": "漏出；外洩 (n.)", "sentence": "The plumber was called to fix a severe water leakage in the basement.", "synonyms": "leak (洩漏), seepage (滲漏)", "antonyms": "seal (密封)", "confused": "luggage (行李)", "roots_parsing": "leak (漏) + -age (名詞字尾) -> 漏出", "root_family": "無", "toeic_category": "地產與建築", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+leakage" }, { "english": "longevity", "chinese": "長壽；壽命 (n.)", "sentence": "A healthy diet and regular exercise can significantly increase your longevity.", "synonyms": "lifespan (壽命), durability (持久)", "antonyms": "brevity (短暫)", "confused": "longitude (經度)", "roots_parsing": "long- (長) + ev (時間/時代) + -ity (名詞字尾) -> 長時間 -> 長壽", "root_family": "ev 家族 (時間/時代)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+longevity" }, { "english": "luncheon", "chinese": "正式午餐；午宴 (n.)", "sentence": "The CEO hosted a farewell luncheon for the retiring manager.", "synonyms": "lunch (午餐), banquet (宴會)", "antonyms": "無", "confused": "lunchbox (午餐盒)", "roots_parsing": "lunch (午餐) + -eon (名詞字尾，表示集會或場合) -> 正式午宴", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+luncheon" }, { "english": "magnitude", "chinese": "巨大；重大；震級 (n.)", "sentence": "We did not realize the full magnitude of the problem until it was too late.", "synonyms": "scale (規模), immensity (巨大)", "antonyms": "smallness (微小)", "confused": "magnet (磁鐵)", "roots_parsing": "magn- (大) + -itude (名詞字尾，表示狀態) -> 巨大的狀態 -> 規模/重大", "root_family": "magn- 家族 (大)", "toeic_category": "企劃與業務", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+magnitude" }, { "english": "malfunction", "chinese": "發生故障 (v.) / 故障 (n.)", "sentence": "The manufacturing process was halted because a key machine malfunctioned.", "synonyms": "breakdown (故障), failure (失效)", "antonyms": "function (運作), operate (運轉)", "confused": "malnutrition (營養不良)", "roots_parsing": "mal- (壞/不良) + function (功能) -> 功能不良 -> 故障", "root_family": "mal- 家族 (壞/不良)", "toeic_category": "生產與製造", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+malfunction" }, { "english": "markup", "chinese": "漲價；利潤空間 (n.)", "sentence": "Retailers usually apply a 50 percent markup on wholesale goods to make a profit.", "synonyms": "increase (增加), profit margin (利潤率)", "antonyms": "markdown (降價), discount (折扣)", "confused": "makeup (化妝品/組成)", "roots_parsing": "mark (標記) + up (向上) -> 把價格標高 -> 漲價/利潤空間", "root_family": "無", "toeic_category": "財務與金融", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+markup" }, { "english": "measures", "chinese": "措施；方法 (n.)", "sentence": "The government has introduced strict safety measures to prevent accidents.", "synonyms": "steps (步驟), actions (行動)", "antonyms": "無", "confused": "treasures (寶藏)", "roots_parsing": "meas- (測量) + -ure (名詞字尾) -> 測量的標準 -> 衍伸為措施", "root_family": "mens/meas- 家族 (測量)", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+measures" }, { "english": "membership", "chinese": "會員資格；會員人數 (n.)", "sentence": "You need to renew your gym membership before the end of the month.", "synonyms": "fellowship (會員身分)", "antonyms": "無", "confused": "partnership (合夥關係)", "roots_parsing": "member (成員) + -ship (狀態/身分字尾) -> 會員資格", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+membership" }, { "english": "memento", "chinese": "紀念品；引起回憶的東西 (n.)", "sentence": "She kept the concert ticket as a memento of their first date.", "synonyms": "souvenir (紀念品), keepsake (紀念品)", "antonyms": "無", "confused": "moment (時刻)", "roots_parsing": "mem- (記憶) + -ento (名詞字尾) -> 用來記憶的物品 -> 紀念品", "root_family": "mem/mnem- 家族 (記憶)", "toeic_category": "出差與交通", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+memento" }, { "english": "merger", "chinese": "合併；併購 (n.)", "sentence": "The proposed merger between the two tech giants will create a market monopoly.", "synonyms": "consolidation (合併), combination (結合)", "antonyms": "separation (分離), division (分裂)", "confused": "murder (謀殺)", "roots_parsing": "merge (合併) + -er (名詞字尾，表示行為或事物) -> 合併事件", "root_family": "merg/mers- 家族 (沉沒/融入)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+merger" }, { "english": "minutes", "chinese": "會議記錄 (n.)", "sentence": "The secretary is responsible for taking the minutes during our weekly board meetings.", "synonyms": "records (記錄), notes (筆記)", "antonyms": "無", "confused": "minute (微小的)", "roots_parsing": "min- (小) + -ute (字尾) -> 記錄下來的微小細節 -> 會議記錄", "root_family": "min- 家族 (小)", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+minutes" }, { "english": "morale", "chinese": "士氣；鬥志 (n.)", "sentence": "Providing employees with flexible working hours has greatly improved team morale.", "synonyms": "spirit (精神), confidence (信心)", "antonyms": "depression (沮喪), despair (絕望)", "confused": "moral (道德)", "roots_parsing": "源自法語，與 moral (道德) 同源，後引申為心理狀態與團隊精神", "root_family": "mor- 家族 (風俗/習慣)", "toeic_category": "人事與管理", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+morale" }, { "english": "mortgage", "chinese": "抵押貸款；房貸 (n.)", "sentence": "They took out a thirty-year mortgage to buy their dream house in the suburbs.", "synonyms": "home loan (房貸)", "antonyms": "無", "confused": "massage (按摩)", "roots_parsing": "mort- (死亡) + gage (誓約) -> 死亡契約 (直到債務還清才終止) -> 抵押貸款", "root_family": "mort- 家族 (死亡)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+mortgage" }, { "english": "subprime", "chinese": "次級房貸的；次級的 (adj.)", "sentence": "The global financial crisis in 2008 was largely triggered by the collapse of the subprime mortgage market.", "synonyms": "substandard (標準以下的)", "antonyms": "prime (最優的), first-rate (一流的)", "confused": "supreme (至高的)", "roots_parsing": "sub- (在...之下/次等) + prime (首要的/最優的) -> 優質之下的 -> 次級的", "root_family": "prim/prin- 家族 (第一/首要)", "toeic_category": "財務與金融", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+subprime" } ],
+
+[ { "english": "dabbler", "chinese": "涉獵者 / 淺嘗輒止的人 (名詞)", "sentence": "He is merely a dabbler in art, not a professional painter.", "synonyms": "amateur (業餘愛好者), dilettante (一知半解的藝術愛好者)", "antonyms": "professional (專業人士), expert (專家)", "confused": "babbler (喋喋不休的人)", "roots_parsing": "dabble (涉水/涉獵) + -er (人) -> 涉獵者", "root_family": "無", "toeic_category": "人事與管理", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dabbler" }, { "english": "debris", "chinese": "碎片 / 殘骸 (名詞)", "sentence": "The rescue team searched through the debris for survivors.", "synonyms": "rubble (瓦礫), wreckage (殘骸)", "antonyms": "無", "confused": "hubris (傲慢)", "roots_parsing": "de- (離開) + briser (打破) -> 被打破的東西 -> 碎片", "root_family": "無", "toeic_category": "地產與建築", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+debris" }, { "english": "dependence", "chinese": "依賴 / 依靠 (名詞)", "sentence": "The country is trying to reduce its dependence on imported oil.", "synonyms": "reliance (依賴), dependency (依賴)", "antonyms": "independence (獨立)", "confused": "dependent (依賴的)", "roots_parsing": "de- (向下) + pend (懸掛) + -ence (名詞字尾) -> 掛在下面 -> 依賴", "root_family": "pend/pens- 家族 (懸掛/衡量)", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dependence" }, { "english": "derivative", "chinese": "衍生物 / 衍生性金融商品 (名詞/形容詞)", "sentence": "The bank suffered huge losses from its investments in derivatives.", "synonyms": "byproduct (副產品), spin-off (衍生品)", "antonyms": "original (原創)", "confused": "derivation (起源/由來)", "roots_parsing": "de- (向下) + riv (河流) + -ative (形容詞/名詞字尾) -> 從源頭流出的 -> 衍生物", "root_family": "riv- 家族 (河流)", "toeic_category": "財務與金融", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+derivative" }, { "english": "detergent", "chinese": "洗潔劑 / 洗衣粉 (名詞)", "sentence": "Please buy some laundry detergent from the supermarket on your way home.", "synonyms": "cleaner (清潔劑), cleanser (清潔劑)", "antonyms": "無", "confused": "deterrent (威懾物)", "roots_parsing": "de- (去除) + terge (擦拭) + -ent (名詞字尾) -> 擦去污垢的東西 -> 洗潔劑", "root_family": "terg/ters- 家族 (擦拭)", "toeic_category": "住宿與餐飲", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+detergent" }, { "english": "detour", "chinese": "繞道 / 迂迴 (名詞/動詞)", "sentence": "We had to make a detour because the main bridge was under construction.", "synonyms": "bypass (繞道), deviation (偏離)", "antonyms": "shortcut (捷徑)", "confused": "tour (旅遊)", "roots_parsing": "de- (離開) + tour (轉向) -> 偏離原本的方向 -> 繞道", "root_family": "tour/torn- 家族 (轉動)", "toeic_category": "出差與交通", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+detour" }, { "english": "diversification", "chinese": "多樣化 / 多角化經營 (名詞)", "sentence": "The company's diversification strategy helped it survive the economic downturn.", "synonyms": "variety (多樣性), variation (變化)", "antonyms": "standardization (標準化)", "confused": "diversity (多樣性)", "roots_parsing": "di- (分開) + vers (轉) + -ify (動詞字尾) + -cation (名詞字尾) -> 轉向不同方向 -> 多樣化", "root_family": "vert/vers- 家族 (轉動)", "toeic_category": "企劃與業務", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+diversification" }, { "english": "dividend", "chinese": "股息 / 紅利 (名詞)", "sentence": "The company has consistently paid an annual dividend to its shareholders.", "synonyms": "bonus (紅利), share (份額)", "antonyms": "無", "confused": "division (劃分/部門)", "roots_parsing": "di- (分開) + vid (看/分) + -end (名詞字尾) -> 分配出去的利潤 -> 股息", "root_family": "vid/vis- 家族 (看/分開)", "toeic_category": "財務與金融", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dividend" }, { "english": "durability", "chinese": "耐久性 / 堅固 (名詞)", "sentence": "This fabric is widely known for its exceptional durability and comfort.", "synonyms": "endurance (持久), sturdiness (堅固)", "antonyms": "fragility (脆弱)", "confused": "duration (持續時間)", "roots_parsing": "dur (持久) + -ability (名詞字尾，表示能力) -> 耐久性", "root_family": "dur- 家族 (持久/堅硬)", "toeic_category": "生產與製造", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+durability" }, { "english": "feature", "chinese": "特色 / 特徵 (名詞)", "sentence": "The new smartphone's most outstanding feature is its highly advanced camera.", "synonyms": "characteristic (特徵), attribute (屬性)", "antonyms": "無", "confused": "future (未來)", "roots_parsing": "fact/fect (做/製作) 的變體 -> 做出來的形貌 -> 特徵", "root_family": "fac/fact/fect- 家族 (做/製造)", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+feature" }, { "english": "glut", "chinese": "供過於求 / 過量 (名詞/動詞)", "sentence": "A sudden glut in the housing market has caused prices to fall dramatically.", "synonyms": "surplus (過剩), excess (過多)", "antonyms": "shortage (短缺), scarcity (稀缺)", "confused": "glutton (貪吃者)", "roots_parsing": "glut (吞嚥) -> 吞食過多 -> 供過於求", "root_family": "glut/glot- 家族 (吞嚥)", "toeic_category": "採購與物流", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+glut" }, { "english": "graft", "chinese": "貪污 / 移植 / 嫁接 (名詞/動詞)", "sentence": "The politician was heavily involved in bribery and graft during his term.", "synonyms": "transplant (移植), corruption (貪污)", "antonyms": "無", "confused": "craft (工藝)", "roots_parsing": "graph (寫/畫) 的變體 -> 用來嫁接的刻筆形樹枝 -> 嫁接/移植 (引申為非法的權力轉移或貪污)", "root_family": "graph/gram- 家族 (寫/畫)", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+graft" }, { "english": "infrastructure", "chinese": "基礎建設 (名詞)", "sentence": "The government plans to invest heavily in upgrading the city's infrastructure.", "synonyms": "framework (架構), base (基礎)", "antonyms": "無", "confused": "superstructure (上層建築)", "roots_parsing": "infra- (在...之下) + structure (結構) -> 底層的結構 -> 基礎建設", "root_family": "struct/stru- 家族 (建造)", "toeic_category": "地產與建築", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+infrastructure" }, { "english": "infringement", "chinese": "侵害 / 違反 (名詞)", "sentence": "Using their patented technology without permission is a clear infringement of copyright.", "synonyms": "violation (違反), breach (違背)", "antonyms": "compliance (遵守)", "confused": "fringe (邊緣)", "roots_parsing": "in- (進入) + fring/fract (打破) + -ment (名詞字尾) -> 打破規定 -> 侵害", "root_family": "frag/fract/fring- 家族 (打破)", "toeic_category": "辦公室與行政", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+infringement" }, { "english": "inventory", "chinese": "庫存 / 存貨清單 (名詞)", "sentence": "We need to check our inventory before we can confirm your large order.", "synonyms": "stock (存貨), supply (供應)", "antonyms": "無", "confused": "invention (發明)", "roots_parsing": "in- (進入) + vent (來) + -ory (地點/名詞) -> 物品進來存放的地方 -> 庫存", "root_family": "vent/ven- 家族 (來)", "toeic_category": "採購與物流", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+inventory" }, { "english": "itinerary", "chinese": "行程表 / 旅遊路線 (名詞)", "sentence": "I will send you a detailed itinerary for your upcoming business trip to Tokyo.", "synonyms": "schedule (行程表), route (路線)", "antonyms": "無", "confused": "itinerant (巡迴的)", "roots_parsing": "itiner (走/旅程) + -ary (名詞字尾) -> 旅程的紀錄 -> 行程表", "root_family": "it/itiner- 家族 (走)", "toeic_category": "出差與交通", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+itinerary" } ]
+
+,
 [
+{
+"english": "professional",
+"chinese": "專業的 (形容詞)",
+"sentence": "She is a professional photographer who specializes in wedding portraits.",
+"synonyms": "expert (專家的), skilled (熟練的)",
+"antonyms": "amateur (業餘的)",
+"confused": "professor (教授)",
+"roots_parsing": "pro- (向前) + fess (說) + -ion (名詞字尾) + -al (形容詞字尾) -> 公開聲明專長 -> 專業的",
+"root_family": "fess- 家族 (說/承認)",
+"toeic_category": "人事與管理",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+professional"
+},
+{
+"english": "aspects",
+"chinese": "方面 (名詞複數)",
+"sentence": "We must consider all aspects of the problem before making a final decision.",
+"synonyms": "facets (方面), features (特徵)",
+"antonyms": "無",
+"confused": "expects (期待)",
+"roots_parsing": "a- (朝向) + spect (看) + -s (複數字尾) -> 看的方向與角度 -> 方面",
+"root_family": "spect/spic- 家族 (看)",
+"toeic_category": "企劃與業務",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+aspects"
+},
+{
+"english": "frequency",
+"chinese": "頻率 (名詞)",
+"sentence": "The frequency of buses on this route is about one every ten minutes.",
+"synonyms": "rate (頻率), occurrence (發生率)",
+"antonyms": "infrequency (罕見)",
+"confused": "sequence (順序)",
+"roots_parsing": "frequen (頻繁) + -cy (名詞字尾) -> 頻率",
+"root_family": "無",
+"toeic_category": "生產與製造",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+frequency"
+},
+{
+"english": "previously",
+"chinese": "先前地 (副詞)",
+"sentence": "The building was previously used as a bank before it became a restaurant.",
+"synonyms": "formerly (以前地), beforehand (事先地)",
+"antonyms": "subsequently (隨後地)",
+"confused": "precious (珍貴的)",
+"roots_parsing": "pre- (前) + vi (道路) + -ous (形容詞字尾) + -ly (副詞字尾) -> 走在前面的 -> 先前地",
+"root_family": "vi/vey/voy- 家族 (道路/走)",
+"toeic_category": "企劃與業務",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+previously"
+},
+{
+"english": "afterwards",
+"chinese": "之後地 (副詞)",
+"sentence": "We had dinner together and went to a movie afterwards.",
+"synonyms": "later (後來), subsequently (隨後)",
+"antonyms": "beforehand (事先)",
+"confused": "backward (向後地)",
+"roots_parsing": "after (在...之後) + -wards (向...的方向) -> 之後地",
+"root_family": "無",
+"toeic_category": "辦公室與行政",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+afterwards"
+},
+{
+"english": "frequently",
+"chinese": "頻繁地 (副詞)",
+"sentence": "Ironing is a household chore that needs to be done frequently.",
+"synonyms": "often (經常), regularly (定期地)",
+"antonyms": "rarely (很少地)",
+"confused": "fluently (流利地)",
+"roots_parsing": "frequen (頻繁) + -t (形容詞字尾) + -ly (副詞字尾) -> 頻繁地",
+"root_family": "無",
+"toeic_category": "辦公室與行政",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+frequently"
+},
+{
+"english": "leap",
+"chinese": "跳躍 / 激增 (動詞/名詞)",
+"sentence": "The company's profits took a huge leap this quarter.",
+"synonyms": "jump (跳躍), surge (激增)",
+"antonyms": "drop (下降)",
+"confused": "reap (收割)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "財務與金融",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+leap"
+},
+{
+"english": "intercalary",
+"chinese": "閏的 / 插入的 (形容詞)",
+"sentence": "February 29 is an intercalary day added to the calendar every four years.",
+"synonyms": "inserted (插入的), added (附加的)",
+"antonyms": "無",
+"confused": "internally (內部地)",
+"roots_parsing": "inter- (在...之間) + calar (宣告) + -y (形容詞字尾) -> 在曆法間宣告插入的 -> 閏的",
+"root_family": "cal- 家族 (呼叫/宣告)",
+"toeic_category": "辦公室與行政",
+"gept_level": "高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+intercalary"
+},
+{
+"english": "lunar",
+"chinese": "月亮的 / 陰曆的 (形容詞)",
+"sentence": "The Lunar New Year is one of the most important traditional holidays in Asia.",
+"synonyms": "celestial (天體的)",
+"antonyms": "solar (太陽的)",
+"confused": "linear (線性的)",
+"roots_parsing": "lun (月亮) + -ar (形容詞字尾) -> 月亮的",
+"root_family": "lun- 家族 (月亮/光)",
+"toeic_category": "辦公室與行政",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+lunar"
+},
+{
+"english": "dragon",
+"chinese": "龍 (名詞)",
+"sentence": "The dragon is a symbol of power and good luck in Chinese culture.",
+"synonyms": "serpent (巨蛇/龍)",
+"antonyms": "無",
+"confused": "wagon (四輪馬車)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "企劃與業務",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dragon"
+},
+{
+"english": "festival",
+"chinese": "節慶 (名詞)",
+"sentence": "The music festival attracts thousands of fans from all over the country.",
+"synonyms": "celebration (慶典), feast (節日)",
+"antonyms": "無",
+"confused": "festive (歡樂的)",
+"roots_parsing": "fest (節日) + -ival (名詞字尾) -> 節慶",
+"root_family": "fest- 家族 (節日/歡樂)",
+"toeic_category": "住宿與餐飲",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+festival"
+},
+{
+"english": "constitution",
+"chinese": "憲法 / 構成 / 體質 (名詞)",
+"sentence": "The country is adopting a new constitution that guarantees freedom of speech.",
+"synonyms": "structure (結構), charter (章程)",
+"antonyms": "無",
+"confused": "institution (機構)",
+"roots_parsing": "con- (共同) + stitut (建立/站立) + -ion (名詞字尾) -> 共同建立的最高準則 -> 憲法",
+"root_family": "sta/stit/sist- 家族 (站立)",
+"toeic_category": "人事與管理",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+constitution"
+},
+{
+"english": "establishment",
+"chinese": "建立 / 機構 (名詞)",
+"sentence": "The establishment of the new company created hundreds of jobs in the local area.",
+"synonyms": "foundation (建立), institution (機構)",
+"antonyms": "destruction (毀滅)",
+"confused": "astonishment (驚訝)",
+"roots_parsing": "e- (加強語氣) + stabl (穩定) + -ish (動詞字尾) + -ment (名詞字尾) -> 使其穩定下來 -> 建立",
+"root_family": "sta/stabl- 家族 (站立/穩定)",
+"toeic_category": "企劃與業務",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+establishment"
+}
+]
+,
+[
+{
+"english": "shower",
+"chinese": "陣雨 (n.)",
+"sentence": "We got caught in a sudden shower on our way to the train station.",
+"synonyms": "rain (雨), downpour (傾盆大雨)",
+"antonyms": "無",
+"confused": "power (力量)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+shower"
+},
+{
+"english": "drizzle",
+"chinese": "毛毛雨 (n.)",
+"sentence": "It was a cold and gray day with a constant drizzle outside.",
+"synonyms": "sprinkle (小雨), mizzle (濛濛細雨)",
+"antonyms": "downpour (傾盆大雨)",
+"confused": "dazzle (使目眩)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+drizzle"
+},
+{
+"english": "downpour",
+"chinese": "傾盆大雨 (n.)",
+"sentence": "The flight was severely delayed due to a sudden downpour.",
+"synonyms": "rainstorm (暴雨), deluge (大雨)",
+"antonyms": "drizzle (毛毛雨)",
+"confused": "download (下載)",
+"roots_parsing": "down (向下) + pour (倒) -> 向下傾倒 -> 傾盆大雨",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+downpour"
+},
+{
+"english": "blizzard",
+"chinese": "暴風雪 (n.)",
+"sentence": "The airport was completely closed because of the severe blizzard.",
+"synonyms": "snowstorm (暴風雪), whiteout (白矇天)",
+"antonyms": "無",
+"confused": "bizarre (奇異的)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+blizzard"
+},
+{
+"english": "mist",
+"chinese": "薄霧 (n.)",
+"sentence": "The early morning mist cleared as the sun slowly rose.",
+"synonyms": "fog (霧), haze (霾)",
+"antonyms": "無",
+"confused": "miss (想念/錯過)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+mist"
+},
+{
+"english": "frost",
+"chinese": "霜 (n.)",
+"sentence": "The grass in the park was covered with white frost this morning.",
+"synonyms": "ice (冰), rime (白霜)",
+"antonyms": "thaw (融化)",
+"confused": "frustrate (使挫折)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+frost"
+},
+{
+"english": "dew",
+"chinese": "露水 (n.)",
+"sentence": "There was heavy dew on the grass when we started walking.",
+"synonyms": "moisture (水分)",
+"antonyms": "無",
+"confused": "due (到期的)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dew"
+},
+{
+"english": "hail",
+"chinese": "冰雹 (n.)",
+"sentence": "The sudden hail damaged several rental cars parked outside the hotel.",
+"synonyms": "sleet (雨夾雪), ice pellets (冰粒)",
+"antonyms": "無",
+"confused": "hair (頭髮)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+hail"
+},
+{
+"english": "thunder",
+"chinese": "雷聲 (n.)",
+"sentence": "The loud thunder woke the baby up in the middle of the night.",
+"synonyms": "rumble (隆隆聲), crash (轟隆聲)",
+"antonyms": "無",
+"confused": "under (在...之下)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thunder"
+},
+{
+"english": "lightning",
+"chinese": "閃電 (n.)",
+"sentence": "That tall building was struck by lightning during the storm.",
+"synonyms": "flash (閃光), thunderbolt (雷電)",
+"antonyms": "無",
+"confused": "lighting (照明設備)",
+"roots_parsing": "light (光) + -en (動詞字尾) + -ing (名詞字尾) -> 發光的現象 -> 閃電",
+"root_family": "light- 家族 (光)",
+"toeic_category": "出差與交通",
+"gept_level": "初級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+lightning"
+},
+{
+"english": "hurricane",
+"chinese": "颶風 (n.)",
+"sentence": "The hurricane caused severe damage to the coastal cities and highways.",
+"synonyms": "typhoon (颱風), cyclone (氣旋)",
+"antonyms": "無",
+"confused": "hurry (匆忙)",
+"roots_parsing": "無",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+hurricane"
+},
+{
+"english": "cyclone",
+"chinese": "氣旋 (n.)",
+"sentence": "A powerful cyclone hit the eastern coast and caused massive flooding.",
+"synonyms": "hurricane (颶風), typhoon (颱風)",
+"antonyms": "無",
+"confused": "cycle (循環)",
+"roots_parsing": "cycl- (圓圈) + -one (名詞字尾) -> 旋轉的氣流 -> 氣旋",
+"root_family": "cycl/circ- 家族 (圓/環繞)",
+"toeic_category": "出差與交通",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cyclone"
+},
+{
+"english": "tornado",
+"chinese": "龍捲風 (n.)",
+"sentence": "The tornado destroyed dozens of houses in the small town.",
+"synonyms": "twister (龍捲風), whirlwind (旋風)",
+"antonyms": "無",
+"confused": "torpedo (魚雷)",
+"roots_parsing": "torn- (旋轉) + -ado (名詞字尾) -> 旋轉的風 -> 龍捲風",
+"root_family": "torn/tour- 家族 (轉動)",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+tornado"
+},
+{
+"english": "precipitation",
+"chinese": "降水量；降雨 (n.)",
+"sentence": "The weather forecast predicts heavy precipitation for the next few days.",
+"synonyms": "rainfall (降雨), rain (雨)",
+"antonyms": "drought (乾旱)",
+"confused": "preparation (準備)",
+"roots_parsing": "pre- (向前) + cipit (頭) + -ation (名詞字尾) -> 一頭栽下/落下 -> 降水",
+"root_family": "cap/cipit- 家族 (頭)",
+"toeic_category": "出差與交通",
+"gept_level": "高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+precipitation"
+},
+{
+"english": "thermometer",
+"chinese": "溫度計 (n.)",
+"sentence": "The nurse used a thermometer to check the patient's temperature.",
+"synonyms": "temperature gauge (溫度表)",
+"antonyms": "無",
+"confused": "barometer (氣壓計)",
+"roots_parsing": "thermo- (熱) + meter (測量儀器) -> 測量熱度的儀器 -> 溫度計",
+"root_family": "therm- 家族 (熱)",
+"toeic_category": "健康與醫療",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thermometer"
+},
+{
+"english": "barometer",
+"chinese": "氣壓計；晴雨表 (n.)",
+"sentence": "The falling reading on the barometer indicates a storm is approaching.",
+"synonyms": "pressure gauge (壓力計), indicator (指標)",
+"antonyms": "無",
+"confused": "thermometer (溫度計)",
+"roots_parsing": "baro- (重量/壓力) + meter (測量儀器) -> 測量氣壓的儀器 -> 氣壓計",
+"root_family": "bar/baro- 家族 (重/壓)",
+"toeic_category": "出差與交通",
+"gept_level": "高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+barometer"
+},
+{
+"english": "overcast",
+"chinese": "多雲的；陰天的 (adj.)",
+"sentence": "It is a chilly and overcast day, so you should take a warm jacket.",
+"synonyms": "cloudy (多雲的), gloomy (陰暗的)",
+"antonyms": "sunny (晴朗的), clear (晴朗無雲的)",
+"confused": "broadcast (廣播)",
+"roots_parsing": "over- (在...之上) + cast (投擲) -> 雲層覆蓋在上 -> 陰天的",
+"root_family": "cast- 家族 (投/擲)",
+"toeic_category": "出差與交通",
+"gept_level": "中高級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+overcast"
+},
+{
+"english": "humid",
+"chinese": "潮濕的 (adj.)",
+"sentence": "The climate in this city is very hot and humid in summer.",
+"synonyms": "muggy (悶熱潮濕的), damp (潮濕的)",
+"antonyms": "dry (乾燥的), arid (乾旱的)",
+"confused": "human (人類)",
+"roots_parsing": "hum- (濕/土) + -id (形容詞字尾) -> 潮濕的",
+"root_family": "hum- 家族 (土/濕)",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+humid"
+},
+{
+"english": "chilly",
+"chinese": "寒冷的；冷颼颼的 (adj.)",
+"sentence": "The morning air is quite chilly, so you had better wear a sweater.",
+"synonyms": "cold (冷的), freezing (極冷的)",
+"antonyms": "warm (溫暖的), hot (熱的)",
+"confused": "chili (辣椒)",
+"roots_parsing": "chill (寒冷) + -y (形容詞字尾) -> 寒冷的",
+"root_family": "無",
+"toeic_category": "出差與交通",
+"gept_level": "中級",
+"youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+chilly"
+}
+]
+,
+[ { "english": "neck", "chinese": "脖子 (n.)", "sentence": "He wrapped a thick scarf around his neck to keep warm during the winter.", "synonyms": "nape (後頸)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+neck" }, { "english": "elbow", "chinese": "手肘 (n.)", "sentence": "She rested her elbow on the desk while listening to the lecture.", "synonyms": "joint (關節)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+elbow" }, { "english": "breast", "chinese": "乳房；胸部 (n.)", "sentence": "Breast cancer awareness is heavily promoted every October.", "synonyms": "chest (胸膛), bosom (胸部)", "antonyms": "無", "confused": "beast (野獸)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+breast" }, { "english": "ribs", "chinese": "肋骨 (n.)", "sentence": "He fell off his bike and broke two ribs.", "synonyms": "bone (骨頭)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+ribs" }, { "english": "buttocks", "chinese": "臀部 (n.)", "sentence": "The doctor administered the injection in the upper part of her buttocks.", "synonyms": "bottom (屁股), hips (臀部)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+buttocks" }, { "english": "bosom", "chinese": "胸部；胸懷 (n.)", "sentence": "She held the sleeping baby closely to her bosom.", "synonyms": "breast (乳房), chest (胸部)", "antonyms": "無", "confused": "blossom (開花)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+bosom" }, { "english": "enlargement", "chinese": "擴大；放大 (n.)", "sentence": "The medical report showed a slight enlargement of his liver.", "synonyms": "expansion (擴張), extension (延伸)", "antonyms": "reduction (減少)", "confused": "無", "roots_parsing": "en- (使) + large (大) + -ment (名詞字尾) -> 擴大", "root_family": "large 家族 (大)", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+enlargement" }, { "english": "bust", "chinese": "半身像；胸部 (n.)", "sentence": "The tailor measured her bust, waist, and hips to make the dress.", "synonyms": "chest (胸部), sculpture (雕像)", "antonyms": "無", "confused": "burst (爆裂)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+bust" }, { "english": "waist", "chinese": "腰部 (n.)", "sentence": "He wrapped a towel around his waist after taking a shower.", "synonyms": "midriff (中段)", "antonyms": "無", "confused": "waste (浪費)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+waist" }, { "english": "figure", "chinese": "體態；數字；人物 (n.)", "sentence": "She has maintained a slender figure by practicing yoga daily.", "synonyms": "body (身體), shape (形狀)", "antonyms": "無", "confused": "finger (手指)", "roots_parsing": "fig- (塑造) + -ure (名詞字尾) -> 塑造出的形態", "root_family": "fig/fict- 家族 (塑造/虛構)", "toeic_category": "辦公室與行政", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+figure" }, { "english": "slender", "chinese": "苗條的；纖細的 (adj.)", "sentence": "She has long, slender fingers that are perfect for playing the piano.", "synonyms": "slim (苗條的), thin (瘦的)", "antonyms": "plump (豐滿的), stout (粗壯的)", "confused": "slander (誹謗)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+slender" }, { "english": "lean", "chinese": "精瘦的；傾斜 (adj./v.)", "sentence": "The athlete has a lean and muscular body from years of training.", "synonyms": "thin (瘦的), fit (健壯的)", "antonyms": "fat (胖的)", "confused": "learn (學習)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+lean" }, { "english": "thin", "chinese": "瘦的；薄的 (adj.)", "sentence": "The ice on the lake is too thin for us to skate safely.", "synonyms": "slim (苗條的), skinny (極瘦的)", "antonyms": "thick (厚的), fat (胖的)", "confused": "thing (事物)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thin" }, { "english": "plump", "chinese": "豐滿的；微胖的 (adj.)", "sentence": "The baby has extremely cute and plump cheeks.", "synonyms": "chubby (圓胖的), round (圓潤的)", "antonyms": "skinny (極瘦的), slender (苗條的)", "confused": "plum (李子)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+plump" }, { "english": "chubby", "chinese": "圓胖的；豐滿的 (adj.)", "sentence": "Look at that adorable baby with chubby arms and legs.", "synonyms": "plump (豐滿的), tubby (矮胖的)", "antonyms": "thin (瘦的), lean (精瘦的)", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+chubby" }, { "english": "buxom", "chinese": "(女性) 豐滿的 (adj.)", "sentence": "The classic painting features a buxom woman in a beautiful red dress.", "synonyms": "plump (豐滿的), curvy (有曲線的)", "antonyms": "slender (苗條的)", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+buxom" }, { "english": "stout", "chinese": "結實的；粗壯的 (adj.)", "sentence": "He is a short and stout man with a surprisingly deep voice.", "synonyms": "solid (結實的), sturdy (健壯的)", "antonyms": "slender (苗條的), thin (瘦弱的)", "confused": "shout (喊叫)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+stout" }, { "english": "tubby", "chinese": "矮胖的 (adj.)", "sentence": "The tubby little dog waddled happily across the living room.", "synonyms": "chubby (圓胖的), plump (豐滿的)", "antonyms": "thin (瘦的)", "confused": "tube (管子)", "roots_parsing": "tub (桶子) + -y (形容詞字尾) -> 像桶子一樣圓胖的", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+tubby" }, { "english": "corpulent", "chinese": "肥胖的；臃腫的 (adj.)", "sentence": "The doctor strongly advised the corpulent patient to start a diet.", "synonyms": "obese (肥胖的), fat (胖的)", "antonyms": "thin (瘦的), slender (苗條的)", "confused": "corporate (企業的)", "roots_parsing": "corp- (身體) + -ulent (多...的) -> 多肉的，肥胖的", "root_family": "corp/corpor- 家族 (身體)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+corpulent" }, { "english": "obese", "chinese": "極度肥胖的 (adj.)", "sentence": "Obese individuals often have a much higher risk of developing heart disease.", "synonyms": "corpulent (肥胖的), overweight (超重的)", "antonyms": "skinny (極瘦的)", "confused": "obey (服從)", "roots_parsing": "ob- (過度) + -ese (吃) -> 吃太多的", "root_family": "ed/es- 家族 (吃)", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+obese" }, { "english": "earlobe", "chinese": "耳垂 (n.)", "sentence": "She pierced her earlobe yesterday so she could wear beautiful earrings.", "synonyms": "無", "antonyms": "無", "confused": "無", "roots_parsing": "ear (耳朵) + lobe (垂/葉) -> 耳垂", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+earlobe" }, { "english": "cheek", "chinese": "臉頰 (n.)", "sentence": "Tears silently rolled down her pale cheeks when she heard the news.", "synonyms": "無", "antonyms": "無", "confused": "check (檢查)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cheek" }, { "english": "dimple", "chinese": "酒窩 (n.)", "sentence": "He has a very charming dimple on his left cheek when he smiles.", "synonyms": "hollow (凹陷處)", "antonyms": "無", "confused": "simple (簡單的)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+dimple" }, { "english": "freckle", "chinese": "雀斑 (n.)", "sentence": "She gets more freckles on her nose during the sunny summer months.", "synonyms": "spot (斑點), macule (斑)", "antonyms": "無", "confused": "tackle (處理)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+freckle" }, { "english": "pimple", "chinese": "青春痘；粉刺 (n.)", "sentence": "He regretfully squeezed a pimple on his forehead and made it worse.", "synonyms": "acne (痤瘡), spot (痘痘)", "antonyms": "無", "confused": "simple (簡單的)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+pimple" }, { "english": "wrinkles", "chinese": "皺紋 (n.)", "sentence": "Applying sunscreen daily can help prevent premature wrinkles.", "synonyms": "lines (細紋), creases (摺痕)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+wrinkles" }, { "english": "jaw", "chinese": "下顎；頷部 (n.)", "sentence": "His jaw dropped in complete disbelief when he saw the magic trick.", "synonyms": "chin (下巴)", "antonyms": "無", "confused": "jar (罐子)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+jaw" }, { "english": "chin", "chinese": "下巴 (n.)", "sentence": "Keep your chin up; things will eventually get better.", "synonyms": "jaw (頷)", "antonyms": "無", "confused": "shin (小腿)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+chin" }, { "english": "jutting", "chinese": "突出的；伸出的 (adj.)", "sentence": "He has a strong, jutting chin that gives him a serious look.", "synonyms": "projecting (突出的), sticking out (伸出的)", "antonyms": "receding (後退的)", "confused": "cutting (切割)", "roots_parsing": "jut (突出) + -ting (形容詞/現在分詞) -> 突出的", "root_family": "無", "toeic_category": "地產與建築", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+jutting" }, { "english": "bump", "chinese": "腫塊；凸起 (n.)", "sentence": "I hit my head hard on the door frame and got a large bump.", "synonyms": "lump (腫塊), swelling (隆起)", "antonyms": "hollow (凹陷)", "confused": "pump (泵)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+bump" }, { "english": "molar", "chinese": "臼齒 (n.)", "sentence": "The dentist found a small cavity in my lower right molar.", "synonyms": "back tooth (後排牙齒)", "antonyms": "incisor (門牙)", "confused": "moral (道德)", "roots_parsing": "mol- (磨) + -ar (名詞字尾) -> 用來磨碎食物的牙齒", "root_family": "mol- 家族 (磨)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+molar" }, { "english": "canine", "chinese": "犬齒；犬的 (n./adj.)", "sentence": "Vampires in movies are famous for having long and sharp canines.", "synonyms": "fang (尖牙)", "antonyms": "無", "confused": "cabin (小木屋)", "roots_parsing": "can- (狗) + -ine (與...有關的) -> 像狗一樣的(牙齒)", "root_family": "can/cyn- 家族 (狗)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+canine" }, { "english": "wisdom", "chinese": "智慧；智齒(wisdom tooth) (n.)", "sentence": "I had to take a few days off after getting my wisdom teeth pulled out.", "synonyms": "intelligence (智力), insight (洞察力)", "antonyms": "foolishness (愚蠢)", "confused": "無", "roots_parsing": "wise (聰明的) + -dom (名詞字尾) -> 智慧", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+wisdom" }, { "english": "projecting", "chinese": "突出的 (adj.)", "sentence": "The modern building features a projecting balcony on the top floor.", "synonyms": "jutting (突出的), prominent (顯著的)", "antonyms": "flat (平坦的)", "confused": "protecting (保護的)", "roots_parsing": "pro- (向前) + ject (投擲) + -ing (形容詞字尾) -> 向前投出的", "root_family": "ject- 家族 (投擲)", "toeic_category": "地產與建築", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+projecting" }, { "english": "cavity", "chinese": "蛀牙；洞 (n.)", "sentence": "Brushing your teeth twice a day can effectively prevent a cavity.", "synonyms": "hole (洞), decay (腐壞)", "antonyms": "無", "confused": "gravity (重力)", "roots_parsing": "cav- (洞/空) + -ity (名詞字尾) -> 空洞", "root_family": "cav- 家族 (洞/空)", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cavity" }, { "english": "implant", "chinese": "植入物；植入 (n./v.)", "sentence": "The patient recovered well after getting a permanent dental implant.", "synonyms": "insert (插入物)", "antonyms": "remove (移除)", "confused": "transplant (移植)", "roots_parsing": "im- (進入) + plant (種植) -> 種進去", "root_family": "plant- 家族 (種植)", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+implant" }, { "english": "eyebrow", "chinese": "眉毛 (n.)", "sentence": "She raised an eyebrow in surprise when she heard the unexpected news.", "synonyms": "brow (眉)", "antonyms": "無", "confused": "無", "roots_parsing": "eye (眼睛) + brow (眉) -> 眉毛", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+eyebrow" }, { "english": "eyelid", "chinese": "眼皮；眼瞼 (n.)", "sentence": "His eyelids grew increasingly heavy as it got late into the night.", "synonyms": "無", "antonyms": "無", "confused": "無", "roots_parsing": "eye (眼睛) + lid (蓋子) -> 眼皮", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+eyelid" }, { "english": "eyelash", "chinese": "睫毛 (n.)", "sentence": "She uses an eyelash curler every morning to make her eyes look bigger.", "synonyms": "lash (睫毛)", "antonyms": "無", "confused": "無", "roots_parsing": "eye (眼睛) + lash (鞭打/條狀物) -> 睫毛", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+eyelash" }, { "english": "reshaping", "chinese": "重塑；改變形狀 (n./v.)", "sentence": "The famous plastic surgeon specializes in facial bone reshaping.", "synonyms": "reforming (改造), restructuring (重構)", "antonyms": "無", "confused": "無", "roots_parsing": "re- (重新) + shape (形狀) + -ing (動名詞字尾) -> 重塑", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+reshaping" }, { "english": "nostril", "chinese": "鼻孔 (n.)", "sentence": "The rich smell of fresh coffee flared his nostrils.", "synonyms": "無", "antonyms": "無", "confused": "無", "roots_parsing": "nose (鼻子) + thyrel (洞) -> 鼻孔", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+nostril" }, { "english": "snub", "chinese": "扁平的；冷落 (adj./v.)", "sentence": "The little boy has a very cute, snub nose.", "synonyms": "short (短的), ignore (忽視)", "antonyms": "long (長的), welcome (歡迎)", "confused": "snob (勢利眼)", "roots_parsing": "無", "root_family": "無", "toeic_category": "人事與管理", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+snub" }, { "english": "belly", "chinese": "肚子；腹部 (n.)", "sentence": "He laughed so hard that his belly shook continuously.", "synonyms": "stomach (胃), abdomen (腹部)", "antonyms": "back (背部)", "confused": "berry (莓果)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+belly" }, { "english": "abdomen", "chinese": "腹部 (n.)", "sentence": "He felt a sharp and sudden pain in his lower abdomen.", "synonyms": "belly (肚子), stomach (胃)", "antonyms": "無", "confused": "abandon (放棄)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+abdomen" }, { "english": "potbelly", "chinese": "啤酒肚；大肚子 (n.)", "sentence": "Many middle-aged men develop a potbelly if they stop exercising.", "synonyms": "paunch (大肚子)", "antonyms": "無", "confused": "無", "roots_parsing": "pot (鍋子) + belly (肚子) -> 像鍋子一樣凸出的肚子", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+potbelly" }, { "english": "palm", "chinese": "手掌；手心 (n.)", "sentence": "He nervously wiped the sweat from his palms before the interview.", "synonyms": "無", "antonyms": "back of the hand (手背)", "confused": "plum (李子)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+palm" }, { "english": "wrist", "chinese": "手腕 (n.)", "sentence": "She wore an elegant silver watch on her left wrist.", "synonyms": "無", "antonyms": "無", "confused": "waist (腰部)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+wrist" }, { "english": "fist", "chinese": "拳頭 (n.)", "sentence": "He clenched his fist in anger but managed to say nothing.", "synonyms": "無", "antonyms": "無", "confused": "first (第一)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+fist" }, { "english": "palmistry", "chinese": "手相學 (n.)", "sentence": "She has a strong interest in palmistry and fortune telling.", "synonyms": "palm reading (看手相)", "antonyms": "無", "confused": "chemistry (化學)", "roots_parsing": "palm (手掌) + -istry (學問/技藝) -> 手相學", "root_family": "無", "toeic_category": "人事與管理", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+palmistry" }, { "english": "pinkie", "chinese": "小指 (n.)", "sentence": "They made a pinkie promise to keep the secret forever.", "synonyms": "little finger (小指)", "antonyms": "thumb (拇指)", "confused": "pink (粉紅色)", "roots_parsing": "pink (微小) + -ie (名詞字尾，表小巧) -> 小指", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+pinkie" }, { "english": "thumb", "chinese": "拇指 (n.)", "sentence": "He accidentally hit his thumb with the heavy hammer.", "synonyms": "無", "antonyms": "pinkie (小指)", "confused": "dumb (啞的)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thumb" }, { "english": "thigh", "chinese": "大腿 (n.)", "sentence": "My thighs are extremely sore after running five miles yesterday.", "synonyms": "無", "antonyms": "calf (小腿)", "confused": "high (高的)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+thigh" }, { "english": "joint", "chinese": "關節；共同的 (n./adj.)", "sentence": "Older people often suffer from severe pain in their knee joints.", "synonyms": "connection (連接), mutual (共同的)", "antonyms": "separate (分開的)", "confused": "giant (巨大的)", "roots_parsing": "join (連接) + -t (名詞字尾) -> 連接處", "root_family": "join/junct- 家族 (連接)", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+joint" }, { "english": "heel", "chinese": "腳跟；鞋跟 (n.)", "sentence": "She wore very high heels to the annual company party.", "synonyms": "無", "antonyms": "toe (腳趾)", "confused": "heal (治癒)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+heel" }, { "english": "ankle", "chinese": "腳踝 (n.)", "sentence": "He accidentally sprained his ankle while playing basketball.", "synonyms": "無", "antonyms": "無", "confused": "uncle (叔叔)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+ankle" }, { "english": "tendon", "chinese": "腱；肌腱 (n.)", "sentence": "An Achilles tendon injury can take several months to heal completely.", "synonyms": "sinew (腱)", "antonyms": "無", "confused": "tender (溫柔的)", "roots_parsing": "tend- (伸展) + -on (名詞字尾) -> 用來伸展的組織", "root_family": "tend/tent- 家族 (伸展)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+tendon" }, { "english": "facial", "chinese": "臉部的；面部護理 (adj./n.)", "sentence": "Facial expressions can reveal a lot about a person's true emotions.", "synonyms": "facial treatment (護膚)", "antonyms": "無", "confused": "facility (設施)", "roots_parsing": "face (臉) + -ial (形容詞字尾) -> 臉部的", "root_family": "face/fac- 家族 (表面)", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+facial" }, { "english": "beard", "chinese": "鬍鬚 (生在下巴與面頰) (n.)", "sentence": "He grew a long, thick beard during the cold winter months.", "synonyms": "whiskers (鬍鬚)", "antonyms": "無", "confused": "bear (熊)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+beard" }, { "english": "whisker", "chinese": "(動物的) 鬚；(男人的) 鬢角 (n.)", "sentence": "The cat's sensitive whiskers help it navigate in the dark.", "synonyms": "bristle (剛毛)", "antonyms": "無", "confused": "whisper (低語)", "roots_parsing": "whisk (拂/掃) + -er (名詞字尾) -> 像刷子般的毛", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+whisker" }, { "english": "moustache", "chinese": "八字鬍；上唇的鬍鬚 (n.)", "sentence": "He decided to shave off his moustache to look a bit younger.", "synonyms": "mustache (美式拼法)", "antonyms": "無", "confused": "無", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+moustache" }, { "english": "whiskers", "chinese": "(貓鼠等的) 鬍鬚；絡腮鬍 (n.)", "sentence": "The curious mouse twitched its whiskers as it sniffed the cheese.", "synonyms": "beard (鬍鬚)", "antonyms": "無", "confused": "whispers (低語)", "roots_parsing": "whisk (拂) + -er (名詞) + -s (複數)", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+whiskers" }, { "english": "lung", "chinese": "肺 (n.)", "sentence": "Smoking heavily causes severe damage to your lungs over time.", "synonyms": "無", "antonyms": "無", "confused": "long (長的)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+lung" }, { "english": "kidney", "chinese": "腎臟 (n.)", "sentence": "Drinking plenty of water every day is very good for your kidneys.", "synonyms": "無", "antonyms": "無", "confused": "kid (小孩)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+kidney" }, { "english": "pancreas", "chinese": "胰臟 (n.)", "sentence": "The pancreas produces insulin to help regulate blood sugar levels.", "synonyms": "無", "antonyms": "無", "confused": "panic (恐慌)", "roots_parsing": "pan- (全部) + creas (肉) -> 全是肉的器官", "root_family": "pan- 家族 (全部)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+pancreas" }, { "english": "intestine", "chinese": "腸子 (n.)", "sentence": "Food passes from the stomach directly into the small intestine.", "synonyms": "bowel (腸)", "antonyms": "無", "confused": "intention (意圖)", "roots_parsing": "int- (內部) + -estine (形容詞/名詞字尾) -> 內部的器官", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+intestine" }, { "english": "bowel", "chinese": "腸 (n.)", "sentence": "Eating more dietary fiber can help improve your daily bowel movements.", "synonyms": "intestine (腸子)", "antonyms": "無", "confused": "bowl (碗)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+bowel" }, { "english": "womb", "chinese": "子宮 (n.)", "sentence": "The baby slowly grows in the mother's womb for about nine months.", "synonyms": "uterus (子宮)", "antonyms": "無", "confused": "tomb (墳墓)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+womb" }, { "english": "uterus", "chinese": "子宮 (n.)", "sentence": "The fertilized egg implants itself securely in the wall of the uterus.", "synonyms": "womb (子宮)", "antonyms": "無", "confused": "utilize (利用)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+uterus" }, { "english": "sanitary", "chinese": "衛生的；清潔的 (adj.)", "sentence": "The restaurant was temporarily closed down for lacking proper sanitary conditions.", "synonyms": "hygienic (衛生的), clean (乾淨的)", "antonyms": "dirty (髒的), unsanitary (不衛生的)", "confused": "sanity (心智健全)", "roots_parsing": "sanit- (健康) + -ary (形容詞字尾) -> 有助於健康的", "root_family": "san- 家族 (健康)", "toeic_category": "住宿與餐飲", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+sanitary" }, { "english": "napkin", "chinese": "餐巾；紙巾 (n.)", "sentence": "Please use a napkin to wipe your mouth politely after eating.", "synonyms": "serviette (餐巾紙)", "antonyms": "無", "confused": "kidnap (綁架)", "roots_parsing": "nape (桌布) + -kin (小) -> 小塊的布", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+napkin" }, { "english": "pad", "chinese": "墊子；護墊；衛生棉 (n.)", "sentence": "She went to the convenience store to buy a pack of sanitary pads.", "synonyms": "cushion (墊子), mat (墊子)", "antonyms": "無", "confused": "pet (寵物)", "roots_parsing": "無", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+pad" } ]
+,
+
+[ { "english": "addressee", "chinese": "收件人 (名詞)", "sentence": "Please make sure the name of the addressee is written clearly on the envelope.", "synonyms": "recipient (收件人), receiver (接收者)", "antonyms": "sender (寄件人)", "confused": "addresser (寄件人)", "roots_parsing": "ad- (朝向) + dress (引導) + -ee (接受動作的人) -> 被引導的人，即收件人", "root_family": "-ee 家族 (接受動作的人)", "toeic_category": "辦公室與行政", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+addressee" }, { "english": "agency", "chinese": "代理機構；代辦處 (名詞)", "sentence": "She works for a famous advertising agency in New York.", "synonyms": "organization (組織), bureau (局/處)", "antonyms": "無", "confused": "agent (代理人/經紀人)", "roots_parsing": "ag- (做/行動) + -ency (名詞字尾) -> 執行行動的機構", "root_family": "ag/act- 家族 (做/行動)", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+agency" }, { "english": "ailment", "chinese": "輕微的疾病 (名詞)", "sentence": "She suffers from a chronic stomach ailment that requires special care.", "synonyms": "illness (疾病), disease (疾病)", "antonyms": "health (健康)", "confused": "element (元素)", "roots_parsing": "ail (生病/使痛苦) + -ment (名詞字尾) -> 疾病", "root_family": "ail- 家族 (生病)", "toeic_category": "健康與醫療", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+ailment" }, { "english": "alimony", "chinese": "贍養費 (名詞)", "sentence": "He has to pay alimony to his ex-wife every month after the divorce.", "synonyms": "maintenance (生活費), child support (子女撫養費)", "antonyms": "無", "confused": "harmony (和諧)", "roots_parsing": "al- (滋養/生長) + -mony (名詞字尾，表示狀態或費用) -> 用來滋養生活的費用", "root_family": "al/alt- 家族 (滋養/生長)", "toeic_category": "財務與金融", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+alimony" }, { "english": "allowance", "chinese": "津貼；零用錢 (名詞)", "sentence": "The company provides a daily travel allowance for employees on business trips.", "synonyms": "grant (補助金), pocket money (零用錢)", "antonyms": "無", "confused": "tolerance (寬容)", "roots_parsing": "allow (允許/給予) + -ance (名詞字尾) -> 被允許給予的錢 -> 津貼", "root_family": "allow- 家族 (允許)", "toeic_category": "財務與金融", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+allowance" }, { "english": "apparel", "chinese": "服裝；衣著 (名詞)", "sentence": "The department store sells a wide range of sports apparel and equipment.", "synonyms": "clothing (衣物), garments (服裝)", "antonyms": "無", "confused": "appeal (呼籲/吸引力)", "roots_parsing": "ad- (朝向) + par- (準備) + -el (名詞字尾) -> 準備好給人穿戴的物品 -> 服裝", "root_family": "par- 家族 (準備/生出)", "toeic_category": "採購與物流", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+apparel" }, { "english": "arboretum", "chinese": "植物園；樹木園 (名詞)", "sentence": "We spent the afternoon walking through the national arboretum, admiring the rare trees.", "synonyms": "botanical garden (植物園)", "antonyms": "無", "confused": "aquarium (水族館)", "roots_parsing": "arbor- (樹木) + -etum (表示地點的名詞字尾) -> 種植樹木的地方", "root_family": "arbor- 家族 (樹木)", "toeic_category": "地產與建築", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+arboretum" }, { "english": "assortment", "chinese": "各式各樣的物品；混合物 (名詞)", "sentence": "The gift box contains a wide assortment of imported chocolates.", "synonyms": "variety (多樣), mixture (混合物)", "antonyms": "uniformity (一致性)", "confused": "assessment (評估)", "roots_parsing": "ad- (朝向) + sort (種類) + -ment (名詞字尾) -> 將東西分類放在一起 -> 各式各樣", "root_family": "sort/sors- 家族 (種類/命運)", "toeic_category": "採購與物流", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+assortment" }, { "english": "booth", "chinese": "攤位；小隔間 (名詞)", "sentence": "Let us meet at the ticket booth before the concert starts.", "synonyms": "stall (攤位), stand (展台)", "antonyms": "無", "confused": "boots (靴子)", "roots_parsing": "無", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+booth" }, { "english": "branch", "chinese": "分公司；分局；樹枝 (名詞)", "sentence": "The bank is planning to open a new branch in Tokyo next year.", "synonyms": "division (部門), office (辦公室/處所)", "antonyms": "headquarters (總部)", "confused": "brand (品牌)", "roots_parsing": "無", "root_family": "無", "toeic_category": "辦公室與行政", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+branch" }, { "english": "bridgehead", "chinese": "橋頭堡；陣地 (名詞)", "sentence": "The company used the successful product launch as a bridgehead into the European market.", "synonyms": "foothold (立足點), base (基地)", "antonyms": "無", "confused": "blockhead (笨蛋)", "roots_parsing": "bridge (橋) + head (頭) -> 橋頭的防禦陣地，引申為進軍新領域的據點", "root_family": "無", "toeic_category": "企劃與業務", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+bridgehead" }, { "english": "byproduct", "chinese": "副產品；附帶結果 (名詞)", "sentence": "Job creation is a welcome byproduct of the new economic policy.", "synonyms": "spin-off (衍生產品), side effect (副作用)", "antonyms": "main product (主要產品)", "confused": "bioproduct (生物產品)", "roots_parsing": "by- (旁邊的/次要的) + product (產品) -> 生產過程中的次要產物", "root_family": "duct/duc- 家族 (引導)", "toeic_category": "生產與製造", "gept_level": "中高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+byproduct" }, { "english": "cascade", "chinese": "小瀑布；連串產生 (名詞/動詞)", "sentence": "A single mistake can cause a cascade of problems in the production line.", "synonyms": "waterfall (瀑布), series (一連串)", "antonyms": "無", "confused": "arcade (拱廊)", "roots_parsing": "cas/cad- (落下) + -ade (名詞字尾) -> 落下的水流 -> 瀑布", "root_family": "cad/cas/cid- 家族 (落下/降臨)", "toeic_category": "企劃與業務", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cascade" }, { "english": "collusion", "chinese": "共謀；勾結 (名詞)", "sentence": "Several companies were accused of collusion to fix the prices of electronics.", "synonyms": "conspiracy (陰謀), complicity (共犯關係)", "antonyms": "無", "confused": "collision (碰撞)", "roots_parsing": "col- (共同) + lud/lus- (玩/遊戲) + -ion (名詞字尾) -> 一起玩把戲 -> 勾結", "root_family": "lud/lus- 家族 (玩耍/戲弄)", "toeic_category": "財務與金融", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+collusion" }, { "english": "complaint", "chinese": "抱怨；投訴 (名詞)", "sentence": "The manager promised to deal with the customer's complaint immediately.", "synonyms": "grievance (委屈/不滿), dissatisfaction (不滿意)", "antonyms": "compliment (讚美)", "confused": "compliant (順從的)", "roots_parsing": "com- (加強語氣) + plaint (哀嘆) -> 強烈表達不滿 -> 抱怨", "root_family": "plain/plaint- 家族 (抱怨/哀嘆)", "toeic_category": "辦公室與行政", "gept_level": "初級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+complaint" }, { "english": "cottage", "chinese": "農舍；小別墅 (名詞)", "sentence": "They rented a cozy cottage by the lake for their summer vacation.", "synonyms": "cabin (小木屋), lodge (鄉間小屋)", "antonyms": "mansion (豪宅)", "confused": "cotton (棉花)", "roots_parsing": "cot (小屋/床) + -age (名詞字尾) -> 鄉間的小房", "root_family": "無", "toeic_category": "住宿與餐飲", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+cottage" }, { "english": "crosswalk", "chinese": "行人穿越道；斑馬線 (名詞)", "sentence": "Pedestrians should always use the crosswalk when crossing the busy street.", "synonyms": "pedestrian crossing (行人穿越道), zebra crossing (斑馬線)", "antonyms": "無", "confused": "crossover (交叉/跨界)", "roots_parsing": "cross (穿越) + walk (行走) -> 供人穿越行走的區域 -> 行人穿越道", "root_family": "無", "toeic_category": "出差與交通", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+crosswalk" } ]
+,
+,[
 {
 "english": "experience",
 "chinese": "經驗 / 體驗 (名詞/動詞)",
