@@ -399,7 +399,6 @@ var SpellingHeroData = [
 // 第二批次：擴充單字區 (全新多維度架構)
 // ==========================================
 SpellingHeroData = SpellingHeroData.concat(
-這裡已經幫你把多餘的 D 與中括號清除，並將所有的單字資料合併成單一個標準的 JSON 陣列。你可以直接點擊右上角的「複製」按鈕，將這份資料匯入你的系統或資料庫中：
 [
   { "english": "salvage", "chinese": "搶救、打撈 (動詞/名詞)", "sentence": "The crew managed to salvage the valuable cargo from the sinking ship.", "synonyms": "rescue (救援), recover (尋回)", "antonyms": "abandon (放棄) (若無則填 無)", "confused": "savage (野蠻的)", "roots_parsing": "salv (安全/拯救) + -age (名詞/動詞字尾) -> 使其安全 -> 搶救。", "root_family": "sal/salv- 家族 (安全/健康/拯救)", "toeic_category": "採購與物流", "gept_level": "高級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+salvage" },
   { "english": "skeleton", "chinese": "骨骼、骨架 (名詞)", "sentence": "The construction workers erected the steel skeleton of the new building.", "synonyms": "framework (框架), structure (結構)", "antonyms": "flesh (肉)", "confused": "skull (頭骨)", "roots_parsing": "來自希臘文 skeletos (乾枯的身體) -> 骨架。", "root_family": "無", "toeic_category": "健康與醫療", "gept_level": "中級", "youtube": "https://www.youtube.com/results?search_query=how+to+pronounce+skeleton" },
